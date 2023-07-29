@@ -15,8 +15,8 @@
 
   <p align="center">
     <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="30%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=4169E1&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
-    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="30%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=4169E1&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
-    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="30%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=4169E1&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
+    <a href="https://github.com/axclogo/AxcBedrock-Dart"><img width="30%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Dart&theme=react&bg_color=1F222E&title_color=6495ED&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
+    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="30%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=1E90FF&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
    
   </p>
         
