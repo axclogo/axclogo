@@ -13,10 +13,13 @@
   </tr>
 </table>
 
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/axclogo/axclogo/assets/github-contribution-grid-snake.svg" /></div>
-
   <p align="center">
-    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
-    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="278" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
+    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="33.333%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
+    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="33.333%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
+    <a href="https://github.com/axclogo/AxcBedrock-Swift"><img width="33.333%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=F85D7F&hide_border=true&icon_color=F8D866&show_icons=false" alt="AxcBedrock-Swift"></a>
    
   </p>
+        
+<div align="center">
+    <img src="https://github.com/axclogo/axclogo/blob/output/assets/github-contribution-grid-snake.svg" />
+</div>
