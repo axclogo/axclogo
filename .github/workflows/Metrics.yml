@@ -5,8 +5,9 @@ on:
   workflow_dispatch:
 #  push: {branches: ["main"]} # 检测推送执行，暂不需要
 jobs:
-  github-readme-stats:
+  Github Data Board:
     runs-on: ubuntu-latest
+    
     steps:
       - uses: actions/checkout@v3
       - run: |

@@ -2,12 +2,12 @@
   <tr>
     <td>
       <svg width="50%" viewBox="0 0 100 100">
-        <img src="https://github.com/axclogo/axclogo/blob/main/assets/general.svg" /> 
+        <img src="https://github.com/axclogo/axclogo/blob/main/assets/data_board_general.svg" /> 
       </svg>
     </td>
     <td>
       <svg width="50%" viewBox="0 0 100 100">
-        <img src="https://github.com/axclogo/axclogo/blob/main/assets/languages.svg"/>
+        <img src="https://github.com/axclogo/axclogo/blob/main/assets/data_board_languages.svg"/>
       </svg>
     </td>
   </tr>
