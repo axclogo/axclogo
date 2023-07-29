@@ -1,0 +1,39 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  github-readme-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          curl "https://github-readme-stats-hui5-awu7i8fa6-endbug.vercel.app/api?username=axclogo&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=dark&bg_color=0d1117" > assets/general.svg
+          curl "https://github-readme-stats-hui5-awu7i8fa6-endbug.vercel.app/api/top-langs/?username=axclogo&show_icons=true&hide_border=true&layout=compact&langs_count=8&theme=dark&bg_color=0d1117&exclude_repo=POLIMI-FINFO" > assets/languages.svg
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: ./*.svg
+          message: Update github-readme-stats
+          default_author: github_actions
+#  github-metrics:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: lowlighter/metrics@v3.33
+#        with:
+#          # Your GitHub token
+#          token: ${{ secrets.METRICS_TOKEN }}
+#
+#          # Options
+#          user: axclogo
+#          template: classic
+#          base: ""
+#          config_timezone: Europe/Rome
+#          plugin_activity: yes
+#          plugin_activity_days: 14
+#          plugin_activity_filter: issue, pr, review, wiki, star, release, member, comment
+#          plugin_activity_limit: 5
+#          plugin_activity_load: 300
+#          plugin_activity_visibility: all
+#          plugin_activity_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot], allcontributors[bot]
