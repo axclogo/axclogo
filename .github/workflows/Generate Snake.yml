@@ -22,12 +22,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           
-
-      - name: Commit and push changes
-        run: |
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git add ./*.svg
-            git commit -m "Update Snake pattern"
-            git push
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: ./*.svg
+          message: 'Update github-data-board'
+          default_author: github_actions
           
