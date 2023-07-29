@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 #  push: {branches: ["main"]} # 检测推送执行，暂不需要
 jobs:
-  github-gata-board:
+  github-data-board:
     runs-on: ubuntu-latest
     
     steps:
@@ -14,11 +14,18 @@ jobs:
           curl "https://github-readme-stats-hui5-awu7i8fa6-endbug.vercel.app/api?username=axclogo&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=dark&bg_color=0d1117" > assets/data_board_general.svg
           curl "https://github-readme-stats-hui5-awu7i8fa6-endbug.vercel.app/api/top-langs/?username=axclogo&show_icons=true&hide_border=true&layout=compact&langs_count=8&theme=dark&bg_color=0d1117&exclude_repo=POLIMI-FINFO" > assets/data_board_languages.svg
           
-      - uses: EndBug/add-and-commit@v9
+      - name: push to the github-general-languages branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          add: ./*.svg
-          message: 'Update github-data-board'
-          default_author: github_actions
+          target_branch: DataBoard/github-general-languages
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+#      - uses: EndBug/add-and-commit@v9
+#        with:
+#          add: ./*.svg
+#          message: 'Update github-data-board'
+#          default_author: github_actions
 
 # 存储库指标，暂不需要
 #  github-metrics:
