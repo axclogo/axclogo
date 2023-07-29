@@ -13,9 +13,7 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -24,13 +22,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           
+
+      - name: Commit and push changes
+        run: |
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git add ./*.svg
+            git commit -m "Update Snake pattern"
+            git push
           
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-#      - name: push to the generate-snake branch
-#        uses: crazy-max/ghaction-github-pages@v3.1.0
-#        with:
-#          target_branch: Decoration/generate-snake
-#          build_dir: dist
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
