@@ -1,11 +1,11 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
-name: Metrics
+name: Github Data Board
 on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
 #  push: {branches: ["main"]} # 检测推送执行，暂不需要
 jobs:
-  Github Data Board:
+  github-gata-board:
     runs-on: ubuntu-latest
     
     steps:
