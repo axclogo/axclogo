@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">AxcLogo's GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 1254, Total Commits  : 1254, Total PRs: 1, Total Issues: 1, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 1255, Total Commits  : 1255, Total PRs: 1, Total Issues: 1, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -67,7 +67,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 116.57656341120838;
+        stroke-dashoffset: 116.43781553325078;
       }
     }
   
