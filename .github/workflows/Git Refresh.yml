@@ -16,6 +16,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: run script
-        run: bash ls
+        run: ls
 #        run: bash ./script/git_refresh_script.sh
 
