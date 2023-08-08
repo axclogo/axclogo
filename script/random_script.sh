@@ -4,7 +4,10 @@ ls
 
 count=1
 
-echo "=========【START】$i========="
+echo "=========【START】========="
+git config --global user.email "axclogo@163.com.com"
+git config --global user.name "axclogo"
+  
 echo '正在切换到远端分支'
 git checkout main
 git branch
