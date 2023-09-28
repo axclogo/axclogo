@@ -121,7 +121,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="137.14"
+          width="137.94"
           height="8"
           fill="#F05138"
         />
@@ -129,9 +129,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="137.14"
+          x="137.94"
           y="0"
-          width="102.03"
+          width="101.52"
           height="8"
           fill="#438eff"
         />
@@ -139,9 +139,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="239.17"
+          x="239.45999999999998"
           y="0"
-          width="41.2"
+          width="41"
           height="8"
           fill="#f1e05a"
         />
@@ -149,9 +149,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="280.37"
+          x="280.46"
           y="0"
-          width="11.94"
+          width="11.88"
           height="8"
           fill="#e34c26"
         />
@@ -159,9 +159,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="292.31"
+          x="292.34"
           y="0"
-          width="13.78"
+          width="13.76"
           height="8"
           fill="#00B4AB"
         />
@@ -169,9 +169,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="296.09"
+          x="296.09999999999997"
           y="0"
-          width="13.11"
+          width="13.1"
           height="8"
           fill="#701516"
         />
@@ -202,42 +202,42 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#F05138" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Swift 45.71%
+        Swift 45.98%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#438eff" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Objective-C 34.01%
+        Objective-C 33.84%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 13.73%
+        JavaScript 13.67%
       </text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 3.98%
+        HTML 3.96%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#00B4AB" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Dart 1.26%
+        Dart 1.25%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#701516" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Ruby 1.04%
+        Ruby 1.03%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
