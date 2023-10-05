@@ -8,7 +8,7 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">AxcLogo's GitHub Stats, Rank: A+</title>
+        <title id="titleId">AxcLogo's GitHub Stats, Rank: A++</title>
         <desc id="descId">Total Stars Earned: 1261, Total Commits  : 1261, Total PRs: 1, Total Issues: 1, Contributed to (last year): 0</desc>
         <style>
           .header {
@@ -67,7 +67,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 113.1420145287611;
+        stroke-dashoffset: 113.06385394156689;
       }
     }
   
@@ -142,7 +142,7 @@
             dominant-baseline="central"
             text-anchor="middle"
           >
-            A+
+            A++
           </text>
         </g>
       </g>
