@@ -13,10 +13,10 @@
   </tr>
 </table> -->
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=axclogo&theme=radical" />
+  <img width="43%"  src="https://github-readme-stats.vercel.app/api?username=axclogo&theme=radical" />
 </a>
 <a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact&theme=radical" />
+  <img width="43%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact&theme=radical" />
 </a>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=100%&pause=1000&vCenter=true&width=435&lines=Basics+Series)](https://github.com/axclogo)
