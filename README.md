@@ -3,6 +3,7 @@
     <td>
       <svg width="50%" viewBox="0 0 100 100">
         <img src="https://github.com/axclogo/axclogo/blob/main/assets/data_board_general.svg" /> 
+        [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=axclogo)](https://github.com/anuraghazra/github-readme-stats)
       </svg>
     </td>
     <td>
