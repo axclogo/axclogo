@@ -1,18 +1,5 @@
-<table>
-  <tr>
-    <td>
-      <svg width="50%" viewBox="0 0 100 100">
-        <img src="https://github.com/axclogo/axclogo/blob/main/assets/data_board_general.svg" /> 
-        [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=axclogo)](https://github.com/anuraghazra/github-readme-stats)
-      </svg>
-    </td>
-    <td>
-      <svg width="50%" viewBox="0 0 100 100">
-        <img src="https://github.com/axclogo/axclogo/blob/main/assets/data_board_languages.svg"/>
-      </svg>
-    </td>
-  </tr>
-</table>
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=axclogo)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=100%&pause=1000&vCenter=true&width=435&lines=Basics+Series)](https://github.com/axclogo)
 <p align="center">
