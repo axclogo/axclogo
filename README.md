@@ -1,7 +1,17 @@
-
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=axclogo)](https://github.com/anuraghazra/github-readme-stats&theme=radical)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
+<table>
+  <tr>
+    <td>
+      <svg width="50%" viewBox="0 0 100 100">
+        <img src="https://github-readme-stats.vercel.app/api?username=axclogo&theme=radical" /> 
+      </svg>
+    </td>
+    <td>
+      <svg width="50%" viewBox="0 0 100 100">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact"/>
+      </svg>
+    </td>
+  </tr>
+</table>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=100%&pause=1000&vCenter=true&width=435&lines=Basics+Series)](https://github.com/axclogo)
 <p align="center">
