@@ -16,7 +16,7 @@
   <img width="43%"  src="https://github-readme-stats.vercel.app/api?username=axclogo&theme=radical" />
 </a>
 <a href="https://github.com/axclogo">
-  <img width="40%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact&theme=radical" />
+  <img width="30%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact&theme=radical" />
 </a>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=100%&pause=1000&vCenter=true&width=435&lines=Basics+Series)](https://github.com/axclogo)
