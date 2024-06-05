@@ -12,10 +12,10 @@
     </td>
   </tr>
 </table> -->
-<a href="https://github.com/axclogo">
-  <img width="43%"  src="https://github-readme-stats.vercel.app/api?username=axclogo&theme=radical" />
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img width="43%"  src="https://github-readme-stats.vercel.app/api?username=axclogo&theme=radical&include_all_commits=true" />
 </a>
-<a href="https://github.com/axclogo">
+<a href="https://github.com/anuraghazra/github-readme-stats">
   <img width="34%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact&theme=radical" />
 </a>
 
