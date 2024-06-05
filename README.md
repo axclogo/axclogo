@@ -1,5 +1,7 @@
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=axclogo)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=axclogo)](https://github.com/anuraghazra/github-readme-stats&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=axclogo&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=100%&pause=1000&vCenter=true&width=435&lines=Basics+Series)](https://github.com/axclogo)
 <p align="center">
