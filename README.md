@@ -44,14 +44,14 @@
     <a href="https://github.com/axclogo/AxcBedrock-Swift">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=react&bg_color=1F222E&title_color=36BCF7&hide_border=true&icon_color=F8D866&show_icons=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=default&title_color=36BCF7&hide_border=true&show_icons=false" />
+        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&theme=default&bg_color=F6F8FA&title_color=36BCF7&hide_border=true&show_icons=false" />
         <img width="43%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Swift&hide_border=true" alt="AxcBedrock-Swift">
       </picture>
     </a>
     <a href="https://github.com/axclogo/AxcBedrock-Dart">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Dart&theme=react&bg_color=1F222E&title_color=696969&hide_border=true&icon_color=F8D866&show_icons=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Dart&theme=default&title_color=696969&hide_border=true&show_icons=false" />
+        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Dart&theme=default&bg_color=F6F8FA&title_color=696969&hide_border=true&show_icons=false" />
         <img width="43%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcBedrock-Dart&hide_border=true" alt="AxcBedrock-Dart">
       </picture>
     </a>
@@ -62,14 +62,14 @@
     <a href="https://github.com/axclogo/AxcUIKit-Swift">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Swift&theme=react&bg_color=1F222E&title_color=6A5ACD&hide_border=true&icon_color=F8D866&show_icons=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Swift&theme=default&title_color=6A5ACD&hide_border=true&show_icons=false" />
+        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Swift&theme=default&bg_color=F6F8FA&title_color=6A5ACD&hide_border=true&show_icons=false" />
         <img width="43%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Swift&hide_border=true" alt="AxcUIKit-Swift">
       </picture>
     </a>
     <a href="https://github.com/axclogo/AxcUIKit-Dart">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Dart&theme=react&bg_color=1F222E&title_color=696969&hide_border=true&icon_color=F8D866&show_icons=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Dart&theme=default&title_color=696969&hide_border=true&show_icons=false" />
+        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Dart&theme=default&bg_color=F6F8FA&title_color=696969&hide_border=true&show_icons=false" />
         <img width="43%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcUIKit-Dart&hide_border=true" alt="AxcUIKit-Dart">
       </picture>
     </a>
@@ -79,14 +79,14 @@
     <a href="https://github.com/axclogo/AxcPermission-Swift">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Swift&theme=react&bg_color=1F222E&title_color=36BCF7&hide_border=true&icon_color=F8D866&show_icons=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Swift&theme=default&title_color=36BCF7&hide_border=true&show_icons=false" />
+        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Swift&theme=default&bg_color=F6F8FA&title_color=36BCF7&hide_border=true&show_icons=false" />
         <img width="43%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Swift&hide_border=true" alt="AxcPermission-Swift">
       </picture>
     </a>
     <a href="https://github.com/axclogo/AxcPermission-Dart">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Dart&theme=react&bg_color=1F222E&title_color=696969&hide_border=true&icon_color=F8D866&show_icons=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Dart&theme=default&title_color=696969&hide_border=true&show_icons=false" />
+        <source media="(prefers-color-scheme: light)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Dart&theme=default&bg_color=F6F8FA&title_color=696969&hide_border=true&show_icons=false" />
         <img width="43%" src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=axclogo&repo=AxcPermission-Dart&hide_border=true" alt="AxcPermission-Dart">
       </picture>
     </a>
@@ -95,8 +95,8 @@
 <!-- Snake 贡献图 - 亮暗模式自适应 -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/axclogo/axclogo/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/axclogo/axclogo/blob/output/github-contribution-grid-snake.svg" />
-    <img src="https://github.com/axclogo/axclogo/blob/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/axclogo/axclogo/output/github-contribution-grid-snake.svg" />
   </picture>
 </div>
