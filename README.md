@@ -21,15 +21,6 @@
   </picture>
 </p>
 
-<!-- Trophy - GitHub 奖杯 -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=axclogo&theme=radical&no-frame=true&column=7" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=axclogo&theme=flat&no-frame=true&column=7" />
-    <img width="90%" src="https://github-profile-trophy.vercel.app/?username=axclogo&no-frame=true&column=7" />
-  </picture>
-</p>
-
 <!-- Activity Graph - 活动图 -->
 <p align="center">
   <picture>
