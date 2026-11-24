@@ -91,5 +91,3 @@
   <img width="100%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
 </picture>
 </p>
-
-[图片更新状态](https://github.com/axclogo/axclogo/tree/output) · [维护说明](PROFILE_MAINTENANCE.md)

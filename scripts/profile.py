@@ -324,7 +324,6 @@ def readme_text(cfg):
             row.append('</p>')
             sections.append('\n'.join(row))
     sections.append('<p align="center">\n' + picture('github-contribution-grid-snake.svg', 'github-contribution-grid-snake-dark.svg', 'Contribution snake', '100%') + '\n</p>')
-    sections.append(f'[图片更新状态](https://github.com/{cfg["repository"]}/tree/{cfg["output_branch"]}) · [维护说明](PROFILE_MAINTENANCE.md)')
     return '\n\n'.join(sections) + '\n'
 
 

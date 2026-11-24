@@ -84,7 +84,7 @@ python3 scripts/profile.py activity
 
 ## 运行检查与恢复
 
-从 README 底部的“图片更新状态”进入状态表。一般最后成功时间不应超过两天。
+在 [output 分支](https://github.com/axclogo/axclogo/tree/output)查看状态表。一般最后成功时间不应超过两天。
 超过两天时先看工作流是否运行，再看具体失败 job；更新停滞不会自动使已经发布的 SVG 消失。
 
 - **401 / Bad credentials**：确认工作流使用 `github.token`，不要换回旧 `METRICS_TOKEN`。
