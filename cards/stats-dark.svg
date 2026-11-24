@@ -1,15 +1,15 @@
 
       <svg
-        width="467"
-        height="195"
-        viewBox="0 0 467 195"
+        width="420"
+        height="165"
+        viewBox="0 0 420 165"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
         <title id="titleId">AxcLogo&#39;s GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 1248, Total Commits  : 549, Total PRs: 1, Total Issues: 2, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 1248, Total Commits  : 552, Total PRs: 1, Total Issues: 2, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 137.37472057076374;
+        stroke-dashoffset: 137.315247770081;
       }
     }
   
@@ -117,7 +117,7 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="466"
+          width="419"
           fill="#1F222E"
           stroke-opacity="0"
         />
@@ -144,7 +144,7 @@
         >
           
     <g data-testid="rank-circle"
-          transform="translate(390.5, 47.5)">
+          transform="translate(358.5, 32.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
@@ -161,7 +161,7 @@
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
       <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
-    <style>.stagger { opacity: 1 !important; }</style></svg>
+    <style>.stagger { opacity: 1 !important; } .lang-name { font-size: 13px; }</style></svg>
   
       <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
       <text
@@ -171,7 +171,7 @@
         data-testid="stars"
       >1.2k</text>
     </g>
-  </g><g transform="translate(0, 25)">
+  </g><g transform="translate(0, 20)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -184,9 +184,9 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >549</text>
+      >552</text>
     </g>
-  </g><g transform="translate(0, 50)">
+  </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -201,7 +201,7 @@
         data-testid="prs"
       >1</text>
     </g>
-  </g><g transform="translate(0, 75)">
+  </g><g transform="translate(0, 60)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
@@ -216,7 +216,7 @@
         data-testid="issues"
       >2</text>
     </g>
-  </g><g transform="translate(0, 100)">
+  </g><g transform="translate(0, 80)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       
     <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
