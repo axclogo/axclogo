@@ -9,7 +9,13 @@ export function cardModules(config) {
     { id: 'languages', type: 'topLangs', options: config.languages },
     ...config.groups.flatMap(group => group.repos.map(repo => ({
       id: `repo-${repo.name}`, type: 'pin',
-      options: { repo: repo.name, title_color: repo.color, show_icons: 'false' },
+      options: {
+        repo: repo.name, title_color: repo.color, show_icons: 'false',
+        // Match the README's 45% / 30% widths so both layouts display the
+        // same font size. Reserve three description lines for equal heights.
+        card_width: group.columns === 3 ? '280' : '420',
+        description_lines_count: 3,
+      },
     }))),
   ];
 }
@@ -26,7 +32,7 @@ export function validateResult(result) {
 export function makeStaticCard(svg) {
   // Upstream's disable_animations only sets duration=0; renderers without CSS
   // animations would still hide .stagger rows. Keep the static fallback visible.
-  return svg.replace('</svg>', '<style>.stagger { opacity: 1 !important; }</style></svg>');
+  return svg.replace('</svg>', '<style>.stagger { opacity: 1 !important; } .lang-name { font-size: 13px; }</style></svg>');
 }
 
 async function main() {

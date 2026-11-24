@@ -6,13 +6,13 @@
     "dark": { "theme": "react", "bg_color": "1F222E", "text_color": "C9D1D9", "icon_color": "F8D866" },
     "light": { "theme": "default", "bg_color": "F6F8FA", "text_color": "434D58", "icon_color": "586069" }
   },
-  "stats": { "include_all_commits": "true", "show_icons": "true" },
-  "languages": { "layout": "compact", "langs_count": "6" },
+  "stats": { "include_all_commits": "true", "show_icons": "true", "card_width": "420", "line_height": "20" },
+  "languages": { "layout": "compact", "langs_count": "6", "card_width": "420" },
   "activity": { "days": 365, "graph_days": 31, "timezone": "UTC" },
   "groups": [
     { "id": "ai-tools", "title": "AI Tools Series", "repos": [
       { "name": "AxcAgentEngine", "color": "FF6B6B" },
-      { "name": "AxcAgentEngine-WebUI", "color": "FF6B6B" }
+      { "name": "AxcAgentEngine-WebUI", "color": "3178C6" }
     ] },
     { "id": "basics", "title": "AxcBedrock Series", "columns": 3, "repos": [
       { "name": "AxcBedrock-Swift", "color": "F05138" },
