@@ -34,6 +34,12 @@
   <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcAgentEngine-light.svg" alt="AxcAgentEngine" />
 </picture>
 </a>
+<a href="https://github.com/axclogo/AxcAgentEngine-WebUI">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcAgentEngine-WebUI-dark.svg" />
+  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcAgentEngine-WebUI-light.svg" alt="AxcAgentEngine-WebUI" />
+</picture>
+</a>
 </p>
 
 [![AxcBedrock Series](https://raw.githubusercontent.com/axclogo/axclogo/output/headings/basics.svg)](https://github.com/axclogo)

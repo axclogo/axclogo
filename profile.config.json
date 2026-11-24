@@ -11,7 +11,8 @@
   "activity": { "days": 365, "graph_days": 31, "timezone": "UTC" },
   "groups": [
     { "id": "ai-tools", "title": "AI Tools Series", "repos": [
-      { "name": "AxcAgentEngine", "color": "FF6B6B" }
+      { "name": "AxcAgentEngine", "color": "FF6B6B" },
+      { "name": "AxcAgentEngine-WebUI", "color": "FF6B6B" }
     ] },
     { "id": "basics", "title": "AxcBedrock Series", "columns": 3, "repos": [
       { "name": "AxcBedrock-Swift", "color": "36BCF7" },
