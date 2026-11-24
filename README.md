@@ -42,25 +42,19 @@
 <a href="https://github.com/axclogo/AxcBedrock-Swift">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Swift-dark.svg" />
-  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Swift-light.svg" alt="AxcBedrock-Swift" />
+  <img width="29%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Swift-light.svg" alt="AxcBedrock-Swift" />
 </picture>
 </a>
-</p>
-
-<p align="center">
 <a href="https://github.com/axclogo/AxcBedrock-Dart">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Dart-dark.svg" />
-  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Dart-light.svg" alt="AxcBedrock-Dart" />
+  <img width="29%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Dart-light.svg" alt="AxcBedrock-Dart" />
 </picture>
 </a>
-</p>
-
-<p align="center">
 <a href="https://github.com/axclogo/AxcBedrock-Kotlin">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Kotlin-dark.svg" />
-  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Kotlin-light.svg" alt="AxcBedrock-Kotlin" />
+  <img width="29%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcBedrock-Kotlin-light.svg" alt="AxcBedrock-Kotlin" />
 </picture>
 </a>
 </p>

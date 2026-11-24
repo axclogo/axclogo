@@ -26,7 +26,7 @@ README 展示仓库 `output` 分支里的静态 SVG，访问时不再调用第�
 ## 配置与输出
 
 编辑 [`profile.config.json`](profile.config.json) 维护用户、分类、项目列表、颜色和卡片选项。
-分类可通过 `columns` 设置每行卡片数量（1 或 2，默认 2）；AxcBedrock 系列设为 1，将 Swift、Dart、Kotlin 三套库纵向单列展示。
+分类可通过 `columns` 设置每行卡片数量（1、2 或 3，默认 2）；AxcBedrock 系列设为 3，将 Swift、Dart、Kotlin 三套库横向并排展示在同一行，每张卡片宽度为 29%。
 新增项目无需复制工作流步骤。`output` 是发布分支；如迁移分支，需同时调整工作流 checkout/push 目标。
 
 | 模块 | `output` 分支路径 |

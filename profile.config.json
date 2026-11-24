@@ -13,7 +13,7 @@
     { "id": "ai-tools", "title": "AI Tools Series", "repos": [
       { "name": "AxcAgentEngine", "color": "FF6B6B" }
     ] },
-    { "id": "basics", "title": "AxcBedrock Series", "columns": 1, "repos": [
+    { "id": "basics", "title": "AxcBedrock Series", "columns": 3, "repos": [
       { "name": "AxcBedrock-Swift", "color": "36BCF7" },
       { "name": "AxcBedrock-Dart", "color": "696969" },
       { "name": "AxcBedrock-Kotlin", "color": "A97BFF" }
