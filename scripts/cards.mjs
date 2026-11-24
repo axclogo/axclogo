@@ -23,6 +23,12 @@ export function validateResult(result) {
   return result.content;
 }
 
+export function makeStaticCard(svg) {
+  // Upstream's disable_animations only sets duration=0; renderers without CSS
+  // animations would still hide .stagger rows. Keep the static fallback visible.
+  return svg.replace('</svg>', '<style>.stagger { opacity: 1 !important; }</style></svg>');
+}
+
 async function main() {
   const config = JSON.parse(await readFile('profile.config.json', 'utf8'));
   const output = process.env.PROFILE_BUILD_DIR || 'build/cards';
@@ -39,7 +45,7 @@ async function main() {
         username: config.username, ...options, ...module.options,
         hide_border: 'true', disable_animations: 'true',
       });
-      const svg = validateResult(result);
+      const svg = makeStaticCard(validateResult(result));
       const target = path.join(output, module.id, 'cards', `${module.id}-${theme}.svg`);
       await mkdir(path.dirname(target), { recursive: true });
       await writeFile(target, svg);

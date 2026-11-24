@@ -13,6 +13,7 @@ on:
       - 'tests/**'
       - 'profile.config.json'
       - 'package*.json'
+      - 'README.md'
   pull_request:
     paths:
       - '.github/workflows/**'
@@ -20,6 +21,7 @@ on:
       - 'tests/**'
       - 'profile.config.json'
       - 'package*.json'
+      - 'README.md'
 
 permissions:
   contents: read
@@ -44,6 +46,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm test
+      - name: Check README matches the asset configuration
+        run: python scripts/profile.py check
 
   cards:
     name: Generate statistics and repository cards
