@@ -122,7 +122,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Just like bedrock in Minecraft, it supports upper-layer</tspan><tspan dy="1.2em" x="25">development and provides basic APIs. Unlike SwifterSwift, it</tspan><tspan dy="1.2em" x="25">uses the namespace method for calling</tspan>
+      <tspan dy="1.2em" x="25">Just like bedrock in Minecraft, AxcBedrock provides a</tspan><tspan dy="1.2em" x="25">foundation for Swift development on iOS and macOS, with</tspan><tspan dy="1.2em" x="25">utilities and extensions organized under the .axc namespace.</tspan>
     </text>
 
     <g transform="translate(30, 75)">
