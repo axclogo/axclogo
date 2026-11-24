@@ -15,15 +15,13 @@
       { "name": "AxcAgentEngine-WebUI", "color": "FF6B6B" }
     ] },
     { "id": "basics", "title": "AxcBedrock Series", "columns": 3, "repos": [
-      { "name": "AxcBedrock-Swift", "color": "36BCF7" },
-      { "name": "AxcBedrock-Dart", "color": "696969" },
+      { "name": "AxcBedrock-Swift", "color": "F05138" },
+      { "name": "AxcBedrock-Dart", "color": "00B4AB" },
       { "name": "AxcBedrock-Kotlin", "color": "A97BFF" }
     ] },
     { "id": "client", "title": "Client Series", "repos": [
       { "name": "AxcUIKit-Swift", "color": "6A5ACD" },
-      { "name": "AxcUIKit-Dart", "color": "696969" },
-      { "name": "AxcPermission-Swift", "color": "36BCF7" },
-      { "name": "AxcPermission-Dart", "color": "696969" }
+      { "name": "AxcUIKit-TypeScript", "color": "3178C6" }
     ] }
   ]
 }

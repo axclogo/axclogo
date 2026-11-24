@@ -74,25 +74,10 @@
   <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcUIKit-Swift-light.svg" alt="AxcUIKit-Swift" />
 </picture>
 </a>
-<a href="https://github.com/axclogo/AxcUIKit-Dart">
+<a href="https://github.com/axclogo/AxcUIKit-TypeScript">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcUIKit-Dart-dark.svg" />
-  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcUIKit-Dart-light.svg" alt="AxcUIKit-Dart" />
-</picture>
-</a>
-</p>
-
-<p align="center">
-<a href="https://github.com/axclogo/AxcPermission-Swift">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcPermission-Swift-dark.svg" />
-  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcPermission-Swift-light.svg" alt="AxcPermission-Swift" />
-</picture>
-</a>
-<a href="https://github.com/axclogo/AxcPermission-Dart">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcPermission-Dart-dark.svg" />
-  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcPermission-Dart-light.svg" alt="AxcPermission-Dart" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcUIKit-TypeScript-dark.svg" />
+  <img width="43%" src="https://raw.githubusercontent.com/axclogo/axclogo/output/cards/repo-AxcUIKit-TypeScript-light.svg" alt="AxcUIKit-TypeScript" />
 </picture>
 </a>
 </p>
