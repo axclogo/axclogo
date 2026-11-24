@@ -43,6 +43,8 @@ def validate_config(cfg):
     for group in cfg['groups']:
         if not re.fullmatch(r'[a-z0-9-]+', group['id']):
             raise ValueError('Invalid group id')
+        if type(group.get('columns', 2)) is not int or group.get('columns', 2) not in (1, 2):
+            raise ValueError('Group columns must be 1 or 2')
         ids.append(group['id'])
         for repo in group['repos']:
             if not re.fullmatch(r'[A-Za-z0-9_-]+', repo['name']):
@@ -317,9 +319,10 @@ def readme_text(cfg):
         '<p align="center">\n' + picture('activity/graph-light.svg', 'activity/graph-dark.svg', 'Contribution activity, past 31 days (UTC)', '90%') + '\n</p>']
     for group in cfg['groups']:
         sections.append(f'[![{group["title"]}]({base}headings/{group["id"]}.svg)](https://github.com/{cfg["username"]})')
-        for i in range(0, len(group['repos']), 2):
+        columns = group.get('columns', 2)
+        for i in range(0, len(group['repos']), columns):
             row = ['<p align="center">']
-            for repo in group['repos'][i:i + 2]:
+            for repo in group['repos'][i:i + columns]:
                 row.append(f'<a href="https://github.com/{cfg["username"]}/{repo["name"]}">\n' + card('repo-' + repo['name'], repo['name']) + '\n</a>')
             row.append('</p>')
             sections.append('\n'.join(row))
