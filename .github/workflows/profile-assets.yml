@@ -1,0 +1,178 @@
+name: Update Profile Assets
+
+on:
+  schedule:
+    # 08:23 Asia/Shanghai; avoid the busy top of the hour.
+    - cron: '23 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'profile.config.json'
+      - 'package*.json'
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'profile.config.json'
+      - 'package*.json'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-assets-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate generators and failure recovery
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: npm test
+
+  cards:
+    name: Generate statistics and repository cards
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked renderer dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Generate cards independently with bounded retries
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run cards
+      - name: Upload results including partial successes
+        if: ${{ always() && !cancelled() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-cards
+          path: build/cards/
+          retention-days: 7
+          if-no-files-found: error
+
+  activity:
+    name: Generate contribution charts and headings
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Generate local animated headings
+        run: python scripts/profile.py headings
+      - name: Fetch contribution calendar and generate charts
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/profile.py activity
+      - name: Upload results including partial successes
+        if: ${{ always() && !cancelled() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-activity
+          path: build/activity/
+          retention-days: 7
+          if-no-files-found: error
+
+  snake:
+    name: Generate contribution snake
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Load profile owner
+        id: config
+        run: python3 -c 'import json, os; c=json.load(open("profile.config.json")); print("username=" + c["username"], file=open(os.environ["GITHUB_OUTPUT"], "a"))'
+      - name: Generate both themes
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ steps.config.outputs.username }}
+          outputs: |
+            build/snake/snake/github-contribution-grid-snake.svg
+            build/snake/snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Validate and record snake result
+        if: ${{ always() && !cancelled() }}
+        run: python3 scripts/profile.py snake --build build/snake
+      - name: Upload result
+        if: ${{ always() && !cancelled() }}
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-snake
+          path: build/snake/
+          retention-days: 7
+          if-no-files-found: error
+
+  publish:
+    name: Publish healthy modules and report failures
+    needs: [validate, cards, activity, snake]
+    if: ${{ always() && !cancelled() && needs.validate.result == 'success' && github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Checkout existing published assets
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: output
+          path: output
+      - name: Download this run's generation results
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          pattern: profile-*
+          path: build/artifacts
+      - name: Validate and merge; retain previous images on module failure
+        id: merge
+        env:
+          PROFILE_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 scripts/profile.py merge --output output
+      - name: Commit one atomic asset update
+        working-directory: output
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh profile assets and health status'
+            git push origin HEAD:output
+          fi
+      - name: Fail visibly after preserving and publishing available assets
+        if: steps.merge.outputs.failed == 'true'
+        run: |
+          echo 'Some modules failed. Previous valid images were retained. See the job summary and output/status.json.'
+          exit 1
