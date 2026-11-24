@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="435" height="50" viewBox="0 0 435 50" role="img" aria-label="Basics Series">
+<title>Basics Series</title><style>
+@keyframes typing { 0% { width: 0 } 55%, 90% { width: 435px } 100% { width: 0 } }
+.reveal { animation: typing 7s steps(28, end) infinite; }
+@media (prefers-reduced-motion: reduce) { .reveal { animation: none; } }
+</style><defs><clipPath id="clip"><rect class="reveal" width="435" height="50"/></clipPath></defs>
+<text x="0" y="34" font-family="monospace" font-size="28" fill="#36BCF7" clip-path="url(#clip)">Basics Series</text></svg>
