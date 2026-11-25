@@ -122,7 +122,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">Description: A React workbench for AxcAgentEngine, built with</tspan><tspan dy="1.2em" x="25">assistant-ui and Streamdown. Run it as a standalone app or</tspan><tspan dy="1.2em" x="25">embed it in your own to stream conversations, send follow-up...</tspan>
+      <tspan dy="1.2em" x="25">A React workbench for AxcAgentEngine, built with assistant-ui</tspan><tspan dy="1.2em" x="25">and Streamdown. Run it as a standalone app or embed it in your</tspan><tspan dy="1.2em" x="25">own to stream conversations, send follow-up messages during...</tspan>
     </text>
 
     <g transform="translate(30, 75)">
