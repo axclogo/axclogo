@@ -65,6 +65,8 @@ python3 scripts/profile.py activity
 ## 统计口径
 
 - 总览、语言、项目卡片使用固定版本的 GitHub Readme Stats Core，由 Actions 内部直接请求 GitHub API。
+- 项目卡片始终显示 Star 和 Fork 数（包括 0）；`scripts/repo-card.mjs` 适配固定版本渲染器的零值隐藏规则，升级依赖时需通过实际渲染测试。深浅色共用一次仓库数据快照。
+- 项目语言取 GitHub 的 `primaryLanguage`；GitHub 尚未识别语言时不显示，之后随卡片重新生成更新。
 - 语言统计是仓库代码语言分布，不代表个人熟练程度。
 - 连续贡献与活动曲线使用 GitHub GraphQL contribution calendar 的日期和贡献数量。
 - 连续贡献展示**最近 365 个 UTC 日期**中的当前连续天数、最长连续天数、贡献总数。最长连续天数不是账号注册以来的历史纪录；当前连续天数也受这个窗口限制。

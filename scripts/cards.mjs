@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile, rm } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchRepository, renderRepositoryCard } from './repo-card.mjs';
 
 export function cardModules(config) {
   return [
@@ -46,11 +47,17 @@ async function main() {
     const core = await import('@stats-organization/github-readme-stats-core');
     const module = modules.find(item => item.id === process.argv[3]);
     if (!module) throw new Error('Unknown card module');
+    const repo = module.type === 'pin'
+      ? await fetchRepository(config.username, module.options.repo)
+      : null;
     for (const [theme, options] of Object.entries(config.themes)) {
-      const result = await core[module.type]({
+      const renderOptions = {
         username: config.username, ...options, ...module.options,
         hide_border: 'true', disable_animations: 'true',
-      });
+      };
+      const result = repo
+        ? { status: 'success', content: await renderRepositoryCard(repo, renderOptions) }
+        : await core[module.type](renderOptions);
       const svg = makeStaticCard(validateResult(result));
       const target = path.join(output, module.id, 'cards', `${module.id}-${theme}.svg`);
       await mkdir(path.dirname(target), { recursive: true });
